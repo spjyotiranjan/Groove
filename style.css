@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+}
+
+
+#bar{
+    width: 100%;
+    height: 9%;
+    /* position: absolute; */
+    background-color: black;
+    margin: 0 auto;
+    
+}
+
+#logo{
+    height: 39px;
+    /* position: absolute; */
+    
+    padding: 15px ;
+}
+
+#bg-img{
+    background-image: url("https://kq-storage.s3.ap-south-1.amazonaws.com/Github/groove-bg%5B1%5D.png");
+    /* position: absolute; */
+    
+    background-size: 100%;
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    z-index: -1;
+    padding-top: 230px;
+   
+
+}
+
+h1{
+    font-size: 45px;
+    letter-spacing: 2px;
+
+}
+
+p{
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+button{
+    background-color: #27AE60;
+    width: 170px;
+    height: 60px;
+    border: none;
+    margin-top: 15px;
+    
+}
+
+a{
+    color: white;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+.table{
+    /* position: relative; */
+    
+
+    text-align: center;
+    
+    
+}
+
+table{
+    text-align: center;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    height: 50px;
+    
+}
+
+table,th,td{
+    border: 2px solid #D2D2D3;
+    border-collapse: collapse;
+    font-size: 18px;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+   
+    
+    
+}
+
+img{
+    width: 100px;
+}
+
+th{
+    height: 50px;
+    background-color: #27AE60;
+    color: white;
+    width: 100px;
+}
+
+
+
+
+    
+
+.tb{
+    width: 40px;
+}
+
+.order{
+    margin-top: 30px;
+}
+
+.num{
+    width: 200px;
+    height: 25px;
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.button-2{
+    width: 120px;
+    height: 40px;
+    font-size: 16px;
+    color: white;
+
+}
+
+footer{
+    width: 100%;
+    height: 25px;
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin-top: 20px;
+    
+}
+
+.thanks{
+    display: none;
+    margin-top: 15px;
+}
+
+tbody>tr:hover{
+    background-color: #edeae4;
+}
